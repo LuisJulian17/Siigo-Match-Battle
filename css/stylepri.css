@@ -578,12 +578,22 @@ form h2{
 
 }
 .input-div{
-    position: relative;
-    display: grid;
-    grid-template-columns: 7% 93%;
-    margin: 25px 0;
-    padding: 5px 0;
-    border-bottom: 2px solid#d9d9d9;
+    position: absolute;
+    left: 1px;
+    top: -3%;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 18px;
+    transition: .3s;
+}
+.div2{
+    position: absolute;
+    left: 5px;
+    top: 4%;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 18px;
+    transition: .3s;
 }
 .input-div:after, .input-div:before{
     content:'';
@@ -1029,3 +1039,6 @@ label{
         justify-content: center;
     }
   }
+.img2{
+   width: 20px; 
+}
