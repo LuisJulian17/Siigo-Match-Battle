@@ -3,13 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-a{
-
-}
 body{
     font-family: 'Bitter', serif;
-    background: rgb(0,212,255);
-    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(38,32,153,0.4514180672268907) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,14,11,1) 0%, rgba(0,95,255,1) 73%);
 }
 
 .fondo{
@@ -20,7 +17,8 @@ body{
     z-index: -1;
 }
 .container{
-    background-image: url('img/fondo5.png');
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,14,11,1) 0%, rgba(0,95,255,1) 73%);
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -532,7 +530,8 @@ body{
     z-index: -1;
 }
 .container{
-    background-image: url('img/fondo5.png');
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,14,11,1) 0%, rgba(0,95,255,1) 73%);
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -929,8 +928,8 @@ a:hover{
   }
 .home-section{
    position: relative;
-   background: rgb(0,212,255);
-   background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(38,32,153,0.4514180672268907) 100%);
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,14,11,1) 0%, rgba(0,95,255,1) 73%);
    height: 100vh;
    left: 260px;
    width: calc(100% - 260px);
