@@ -588,8 +588,8 @@ form h2{
 }
 .div2{
     position: absolute;
-    left: 5px;
-    top: 4%;
+    left: 8px;
+    top: 5%;
     transform: translateY(-50%);
     color: black;
     font-size: 18px;
@@ -1040,5 +1040,5 @@ label{
     }
   }
 .img2{
-   width: 20px; 
+   width: 27px; 
 }
