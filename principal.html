@@ -1,37 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-9">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/stylepri.css">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-
-<body>
-  <div class="parte01">
-    <div class="card" style="width: 10rem; height: 22rem;">
-      <div class="input-div">
-        <img src="img/circulo2-removebg-preview.png" class="img2">
-      </div>
-      <di class="div2">
-        <h2 class="letra2">A2</h2>
-      </di>
-      <img src="img/Barco1.PNG" class="card-img-top">
-    </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
-    integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
-    crossorigin="anonymous"></script>
-</body>
-
-</html>
+ <!DOCTYPE html>
+ <html lang="es">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Solitario Ada</title>
+     <link rel="stylesheet" type="text/css" href="css/stylepri.css">
+ </head>
+ 
+ <body>
+     <div class="tablero">
+         <button class="empezar">Empezar juego</button>
+         <div class="superior">
+             <div class="mazo">
+                 <div class="espacio-carta">
+                     <div id="pila-inicial"></div>
+                     <div class="carta-mazo">
+                         <img class="carta1" src="img/Barco1.PNG">
+                     </div>
+                 </div>
+             </div>
+             <div class="carta-mazo2">
+                 <div class="espacio-carta" id="casa-0"></div>
+             </div>
+         </div>
+         <div class="carta-mazo3">
+             <div class="espacio-carta" id="pila-0"></div>
+         </div>
+         <div class="carta-mazo4">
+             <div class="espacio-carta" id="pila-0"></div>
+         </div>
+     </div>
+     <div class="avatar2">
+         <img class="pequeña" src="img/Avatar1.png">
+     </div>
+     <div class="avatar1">
+         <img class="pequeña" src="img/Avatar2.png">
+     </div>
+     <div class="avatar3">
+         <img class="pequeña" src="img/Avatar3.png">
+     </div>
+     <div class="avatar4">
+         <img class="pequeña" src="img/Avatar4.png">
+     </div>
+     <script src="index.js"></script>
+ </body>
+ 
+ </html>

@@ -1,0 +1,100 @@
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,73,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.empezar {
+  background: #99224a;
+  color: white;
+  background-color: #99224a;
+  border-radius: 45px 45px 45px 45px;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+  top: 35px;
+  left: 609px;
+}
+
+.superior {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mazo {
+  display: flex;
+}
+
+.casa {
+  display: flex;
+}
+
+.inferior {
+  display: flex;
+  justify-content: center;
+}
+
+.espacio-carta {
+  border: 2px solid black;
+  width: 150px;
+  height: 230px;
+  margin: 10px;
+  position: relative;
+}
+
+.carta {
+  position: absolute;
+  border: 1px solid #888;
+  border-radius: 7px;
+  height: 153px;
+}
+.pequeña{
+  width: 50px;
+  height: 50px;
+}
+.carta1{
+  width: 150px;
+  height: 230px;
+}
+.carta-mazo {
+  position: relative;
+  height: 150px;
+  z-index: 1;
+}
+.carta-mazo2 {
+  position: relative;
+  top: 3px;
+  left: 20px;
+}
+.carta-mazo3 {
+  position: relative;
+  top: 200px;
+  left: 250px;
+}
+.carta-mazo4 {
+  position: relative;
+  top: -45px;
+  left: 929px;
+}
+.avatar2{
+  position: relative;
+  top: -740px;
+  left: 200px;
+}
+.avatar1{
+  position: relative;
+  top: -793px;
+  left: 889px;
+}
+.avatar3{
+  position: relative;
+  top: -397px;
+  left: 885px;
+}
+.avatar4{
+  position: relative;
+  top: -440px;
+  left: 210px;
+}
+.pila-inicial {
+  position: absolute;
+}
